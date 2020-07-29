@@ -1,0 +1,70 @@
+
+
+
+.letra1 {
+    font-family: 'Lobster', cursive;
+    font-size: 37px ;
+    font-weight: 400;
+}
+.logo {
+    font-size: 37px ;
+    font-weight: 400;
+    color: white;   
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    color: #7e93a9
+}
+.centrado{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centrar {
+    align-items: center;
+    text-align: center;
+ 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.recorte {
+    max-height: 206px
+}
+
+
+.l20 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    
+}
+
+.l30 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px  ;
+    font-weight: 700;
+}
+.l40{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px ;
+    font-weight: 700;
+}
+.l16{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px  ;
+    font-weight: 400;
+}
+
+@media (max-width: 992px) {
+    .alinear_texto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+    }
+  } 
+
